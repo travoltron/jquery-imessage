@@ -1,0 +1,14 @@
+{
+  "name": "jquery-imessage",
+  "description": "jQuery plugin to take text and format convo a la iMessage",
+  "main": "/src/js/jquery-imessage.js",
+  "authors": [
+    "Ben Warburton"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "imessage"
+  ],
+  "homepage": "https://github.com/travoltron/jquery-imessage"
+}

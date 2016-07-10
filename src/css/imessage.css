@@ -1,0 +1,94 @@
+#iMessage {
+    font-family: "Helvetica Neue";
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.sender {
+    text-align: center;
+    margin-top: -5.1%;
+}
+
+#iMessage>section {
+    position: absolute;
+    bottom: -35px;
+}
+
+#iMessage>section div {
+    max-width: 255px;
+    word-wrap: break-word;
+    margin-bottom: 2px;
+    line-height: 18px;
+}
+
+.clear {
+    clear: both;
+}
+
+.from {
+    position: relative;
+    padding: 0 20px;
+    color: white;
+    background: #0B93F6;
+    border-radius: 24px;
+    float: right;
+}
+
+.from:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -2px;
+    right: -7px;
+    height: 20px;
+    border-right: 20px solid #0B93F6;
+    border-bottom-left-radius: 16px 14px;
+    -webkit-transform: translate(0, -2px);
+}
+
+.from:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -2px;
+    right: -40px;
+    width: 10px;
+    height: 20px;
+    background: white;
+    border-bottom-left-radius: 10px;
+    -webkit-transform: translate(-30px, -2px);
+}
+
+.to {
+    position: relative;
+    padding: 0 20px;
+    background: #E5E5EA;
+    border-radius: 24px;
+    color: black;
+    float: left;
+}
+
+.to:before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    bottom: -2px;
+    left: -7px;
+    height: 20px;
+    border-left: 20px solid #E5E5EA;
+    border-bottom-right-radius: 16px 14px;
+    -webkit-transform: translate(0, -2px);
+}
+
+.to:after {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    bottom: -2px;
+    left: 20px;
+    width: 10px;
+    height: 20px;
+    background: white;
+    border-bottom-right-radius: 10px;
+    -webkit-transform: translate(-30px, -2px);
+}

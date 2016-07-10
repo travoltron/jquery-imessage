@@ -1,0 +1,23 @@
+{
+  "name": "jquery-imessage",
+  "version": "1.0.0",
+  "description": "jQuery plugin to take text and format convo a la iMessage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travoltron/jquery-imessage.git"
+  },
+  "keywords": [
+    "jquery",
+    "imessage"
+  ],
+  "author": "Ben Warburton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travoltron/jquery-imessage/issues"
+  },
+  "homepage": "https://github.com/travoltron/jquery-imessage#readme"
+}
